@@ -6,16 +6,17 @@ import styled from 'styled-components'
 const DivNav = styled.div`
   display: flex;
   align-content:center;
-  margin: 15px 15px 15px 15px;
+  width: 100%;
+  background: #2d2d2d;
   `;
 
 const NavBar = styled.nav`
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 10px 20px 10px 20px;
-    width: 90%;
-    background: #36454f;
+    padding: 10px 15% 10px 15%;
+    width: 100%;
+   
 `;
 
 const StyledLink = styled(Link)`
@@ -35,7 +36,7 @@ const Navigation = () => {
           <StyledLink to="/">Home</StyledLink>
         </div>
         <div>
-          <StyledLink to="/about">About</StyledLink>
+          <StyledLink to="/mac">Mac</StyledLink>
         </div>
         <div>
           <StyledLink to="/contact">Contact</StyledLink>
